@@ -20,4 +20,4 @@ COPY src src
 RUN mvn clean package -DskipTests
 
 # Run the application
-ENTRYPOINT ["java", "-jar", "target/bankingapp-api-config-server.jar"]
+ENTRYPOINT ["java", "-jar", "target/api-config-server.jar"]
